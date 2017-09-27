@@ -1,5 +1,5 @@
 ---
-# Creating /etc/docker/daemon.json recommended file
+# Creating /etc/docker/daemon.json recommended file for testing
 
 - name: Creating daemon.json file
   file:
