@@ -1,6 +1,10 @@
 ---
 # Creating /etc/docker/daemon.json recommended file for testing
-
+- name: Creating /etc/docker directory
+  file:
+    path: /etc/docker
+    state: directory
+    
 - name: Creating daemon.json file
   file:
     path: /etc/docker/daemon.json
